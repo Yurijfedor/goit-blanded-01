@@ -360,19 +360,15 @@ body {
   padding-bottom: 72px;
 }
 
+.social-items .link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding: 0.8px;
+}
+
 .social-items .item + .item {
   margin-left: 24px;
-}
-
-path {
-  fill: inherit;
-  stroke: inherit;
-}
-
-.social-items .icon {
-  /* border-radius: 50%;
-  background-color: #000000; */
-  fill: #ffffff;
 }
 
 .copyright {
