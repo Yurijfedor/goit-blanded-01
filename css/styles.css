@@ -364,9 +364,15 @@ body {
   margin-left: 24px;
 }
 
+path {
+  fill: inherit;
+  stroke: inherit;
+}
+
 .social-items .icon {
-  border-radius: 50%;
-  background-color: #000000;
+  /* border-radius: 50%;
+  background-color: #000000; */
+  fill: #ffffff;
 }
 
 .copyright {
