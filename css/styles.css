@@ -1,0 +1,394 @@
+:root {
+  --primary-text-color: #000000;
+  --accent-color: #f7941e;
+  --primary-white-color: #ffffff;
+  --logo-color: #231f20;
+  --primary-bg-color: #fafafa;
+  --secondary-bg-color: #f1f1f2;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.list {
+  list-style: none;
+  padding-inline-start: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+/* header */
+
+.page-header {
+  padding: 27px 0;
+  background-color: var(--primary-bg-color);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  font-family: "Homemade Apple";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2.17;
+
+  color: var(--logo-color);
+}
+
+.nav {
+  display: flex;
+  margin-left: 80px;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 433px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .item + .item {
+  margin-left: 31px;
+}
+
+.page-header .button {
+  display: block;
+  text-transform: uppercase;
+
+  margin-right: 34px;
+  margin-left: auto;
+}
+
+.hero {
+  width: 1440px;
+  background-color: var(--secondary-bg-color);
+}
+
+.hero-image {
+  margin-left: 126px;
+}
+
+.hero-title {
+  display: block;
+  width: 433px;
+  height: 411px;
+  margin-left: 162px;
+}
+
+.hero-title .title {
+  margin-top: 0;
+  margin-bottom: 36px;
+  font-size: 56px;
+  line-height: 1.23;
+  font-weight: 600;
+}
+
+.hero-title .text {
+  margin-top: 0;
+  margin-bottom: 52px;
+  font-size: 20px;
+  line-height: 1.41;
+}
+
+.hero-title .button {
+  text-transform: uppercase;
+}
+
+.feature {
+  display: block;
+  width: 441px;
+  height: 332px;
+  margin-left: 112px;
+}
+
+.feature .title {
+  margin-top: 0;
+  margin-bottom: 23px;
+
+  font-size: 32px;
+  line-height: 1.41;
+  font-weight: 400;
+}
+
+.feature .text {
+  margin-top: 0;
+  margin-bottom: 35px;
+  text-align: justify;
+
+  font-size: 20px;
+  line-height: 1.41;
+}
+
+.feature .button {
+  text-transform: uppercase;
+}
+
+.posts {
+  display: block;
+  padding-top: 96px;
+  padding-bottom: 137px;
+  text-align: center;
+}
+
+.posts .title {
+  margin-top: 0;
+  margin-bottom: 23px;
+  font-size: 32px;
+  line-height: 1.19;
+  font-weight: 400;
+}
+
+.posts .text {
+  margin-top: 0;
+  margin-bottom: 64px;
+}
+
+.card-set {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card-set .item + .item {
+  margin-left: 30px;
+}
+
+.card-set .title {
+  text-align: left;
+  margin-top: 24px;
+  margin-bottom: 74px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.card-set .description {
+  text-align: left;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.action {
+  justify-content: center;
+  padding-top: 81px;
+  padding-bottom: 69px;
+  background-color: var(--accent-color);
+}
+
+.action .wrapper {
+  margin-right: 229px;
+}
+
+.action .title {
+  font-size: 32px;
+  line-height: 1.41;
+  font-weight: 700;
+}
+
+.action .text {
+  font-size: 32px;
+  line-height: 1.41;
+  font-weight: 400;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons .button {
+  text-transform: uppercase;
+}
+
+.buttons .item + .item {
+  margin-left: 16px;
+}
+
+.blogs {
+  display: block;
+  padding-top: 88px;
+  padding-bottom: 80px;
+}
+
+.blogs .title {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 23px;
+  font-size: 32px;
+  line-height: 1.19;
+  font-weight: 400;
+}
+
+.blogs .text {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 71px;
+  font-weight: 400;
+  line-height: 1.36;
+}
+
+.sample {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  background-color: var(--logo-color);
+}
+
+.sample .wrapper {
+  margin-left: 78px;
+}
+
+.sample .persone {
+  margin-top: 63px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.41;
+  font-weight: 400;
+  color: var(--primary-white-color);
+}
+
+.sample .quote {
+  margin-top: 27px;
+  margin-bottom: 0;
+  font-size: 48px;
+  line-height: 1.21;
+  font-weight: 400;
+  color: var(--primary-white-color);
+}
+
+.sample .link {
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 1.41;
+  font-weight: 400;
+  color: var(--primary-white-color);
+}
+
+.card-items {
+  display: flex;
+  width: 1170px;
+  margin: 40px auto 0 auto;
+}
+
+.card-items .item + .item {
+  margin-left: 30px;
+}
+
+.card-items .item {
+  padding: 48px 48px 50px 48px;
+}
+
+.card-items .title {
+  text-align: left;
+  font-size: 24px;
+  line-height: 1.41;
+  font-weight: bold;
+}
+
+.card-items .text {
+  text-align: left;
+  line-height: 1.41;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.footer {
+  padding-top: 115px;
+  padding-bottom: 35px;
+  background-color: var(--primary-bg-color);
+}
+
+.site-menu {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid var(--primary-text-color);
+}
+
+.site-menu .link {
+  color: var(--primary-text-color);
+}
+
+.site-menu .item:nth-child(3) {
+  margin: 0 141px 0 141px;
+}
+
+.site-menu .item:nth-child(2),
+.site-menu .item:nth-child(5) {
+  margin-left: 81px;
+}
+
+.social-items {
+  display: flex;
+  justify-content: center;
+  padding-top: 55px;
+  padding-bottom: 72px;
+}
+
+.social-items .item + .item {
+  margin-left: 24px;
+}
+
+.social-items .icon {
+  border-radius: 50%;
+  background-color: #000000;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright p + a {
+  margin-left: 14px;
+}
+
+.copyright .text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.41;
+  font-weight: 400;
+}
+
+.copyright .link {
+  font-size: 14px;
+  line-height: 1.41;
+  font-weight: 400;
+  color: var(--primary-text-color);
+}
