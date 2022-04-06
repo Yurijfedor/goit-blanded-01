@@ -56,6 +56,11 @@ body {
   color: var(--logo-color);
 }
 
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
 .nav {
   display: flex;
   margin-left: 80px;
@@ -73,20 +78,45 @@ body {
   color: var(--primary-text-color);
 }
 
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
 .site-nav .item + .item {
   margin-left: 31px;
 }
 
-.page-header .button {
-  display: block;
-  text-transform: uppercase;
-
-  margin-right: 34px;
-  margin-left: auto;
+.button:hover,
+.button:focus {
+  cursor: pointer;
 }
 
-.hero {
-  width: 1440px;
+.page-header .button {
+  display: block;
+  width: 150px;
+  height: 43.5px;
+  text-transform: uppercase;
+  margin-right: 34px;
+  margin-left: auto;
+  border: 1px solid var(--accent-color);
+  border-radius: 5px;
+
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: var(--accent-color);
+  background-color: var(--primary-bg-color);
+}
+
+.page-header .button:hover,
+.page-header .button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.hero .container {
   background-color: var(--secondary-bg-color);
 }
 
@@ -116,11 +146,26 @@ body {
   line-height: 1.41;
 }
 
-.hero-title .button {
+.hero .button {
+  display: block;
+  width: 200px;
+  height: 60px;
+  border-color: var(--accent-color);
+  border-radius: 5px;
+
+  font-size: 18px;
+  line-height: 1.22;
   text-transform: uppercase;
+
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
-.feature {
+.feature .container {
+  background-color: var(--secondary-bg-color);
+}
+
+.feature .wrapper {
   display: block;
   width: 441px;
   height: 332px;
@@ -146,7 +191,24 @@ body {
 }
 
 .feature .button {
+  display: block;
+  width: 200px;
+  height: 60px;
+  border: 1px solid var(--accent-color);
+  border-color: var(--accent-color);
+  border-radius: 5px;
+
+  font-size: 18px;
+  line-height: 1.22;
   text-transform: uppercase;
+
+  color: var(--accent-color);
+}
+
+.feature .button:hover,
+.feature .button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 .posts {
@@ -176,6 +238,10 @@ body {
   margin-bottom: 0;
 }
 
+.card-set .item {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
 .card-set .item + .item {
   margin-left: 30px;
 }
@@ -195,6 +261,8 @@ body {
   font-size: 14px;
   line-height: 1.4;
   font-weight: 400;
+
+  cursor: pointer;
 }
 
 .action {
@@ -224,8 +292,36 @@ body {
   display: flex;
 }
 
-.buttons .button {
+.buttons .button-primary {
+  display: block;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
   text-transform: uppercase;
+
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: var(--primary-white-color);
+  background-color: var(--logo-color);
+
+  cursor: pointer;
+}
+
+.buttons .button-secondary {
+  display: block;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  text-transform: uppercase;
+
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: var(--primary-text-color);
+  background-color: var(--accent-color);
+
+  cursor: pointer;
 }
 
 .buttons .item + .item {
@@ -301,6 +397,10 @@ body {
   margin: 40px auto 0 auto;
 }
 
+.card-items .item {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
 .card-items .item + .item {
   margin-left: 30px;
 }
@@ -334,6 +434,7 @@ body {
 .site-menu {
   display: flex;
   width: 1000px;
+  padding-bottom: 43px;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
@@ -342,6 +443,11 @@ body {
 
 .site-menu .link {
   color: var(--primary-text-color);
+}
+
+.site-menu .link:hover,
+.site-menu .link:focus {
+  color: var(--accent-color);
 }
 
 .site-menu .item:nth-child(3) {
