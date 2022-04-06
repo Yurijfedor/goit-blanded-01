@@ -238,7 +238,7 @@ body {
   margin-bottom: 0;
 }
 
-.card-set .item {
+.card-set .item:hover {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
 
@@ -397,7 +397,7 @@ body {
   margin: 40px auto 0 auto;
 }
 
-.card-items .item {
+.card-items .item:hover {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
 
